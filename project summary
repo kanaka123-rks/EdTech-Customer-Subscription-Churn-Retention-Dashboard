@@ -1,0 +1,34 @@
+📄 Project Title: EdTech Customer Subscription Churn & Retention Dashboard
+Overview:
+Designed and developed an end-to-end data analytics solution to analyze churn patterns and customer retention for a fictional EdTech subscription platform. The project involved generating synthetic customer data with 1,000 records, then applying data cleaning, exploratory data analysis (EDA), and dashboarding in Power BI to derive actionable insights.
+
+Key Steps:
+
+ Created and cleaned a synthetic dataset simulating real-world subscription data, including fields for customer ID, join date, cancel date, plan type, region, country, and auto-renewal preferences.
+ Engineered features such as churn flags and analyzed null values to distinguish active vs. churned customers.
+ Performed exploratory data analysis in Python, discovering that customers on basic plans and customers without auto-renew were more likely to churn.
+ Built an interactive Power BI dashboard featuring:
+
+Churn KPIs (overall churn rate, active customers, churned customers)
+
+Customer growth trends over time
+
+Churn by plan type and by region
+
+Auto-renew breakdown
+
+Dynamic slicers by plan type, region, and year
+Applied DAX calculations for KPIs and time-based measures.
+Designed a clean, modern dashboard layout with a business storytelling focus, highlighting churn drivers and retention opportunities.
+
+Tools Used:
+
+Python (Pandas, Seaborn for EDA)
+
+Power BI (Data modeling, DAX, visualization)
+
+Excel (data verification)
+
+Outcomes:
+Identified that ~30% of customers churned, especially among basic plan users and non-auto-renew customers.
+Recommended offering targeted retention discounts and expanding auto-renew programs to increase lifetime value
